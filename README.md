@@ -41,7 +41,7 @@ python spoofer.py
 
 ---
 
-## ✍️ Custom UUID (`divinity.adiavi.com`)
+## ✍️ Custom UUID 
 
 If you want to set a **specific** device UUID instead of a randomly generated one, edit the script and change the line that generates a random UUID.
 
@@ -56,7 +56,7 @@ with a fixed UUID like this:
 
 ```py
 # fixed (example):
-spoofed_uuid = '123e4567-e89b-12d3-a456-426614174000'
+spoofed_uuid = '123e4567-e89b-67d3-a456-426667174670'
 ```
 
 Make sure the UUID you provide is a valid UUID string (36 characters including hyphens).

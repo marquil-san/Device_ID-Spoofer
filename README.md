@@ -63,8 +63,3 @@ Make sure the UUID you provide is a valid UUID string (36 characters including h
 
 ---
 
-
-## ❤️ Friendly reminder
-
-If the readme felt gay asf, `Zesty ChatGPT` wrote this.
----

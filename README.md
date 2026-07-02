@@ -7,7 +7,7 @@
 ## ⚠️ Important notes
 
 * **If you get perma banned for bypassing, don't cry.**
-* **Intended Use** `...`
+* **Intended Use** `Ban Evasion`
 
 ---
 

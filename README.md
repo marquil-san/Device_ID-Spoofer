@@ -51,7 +51,7 @@ Edit the values, save the file, and run `spoofer.exe` again.
 
 ## 🛡️ Safety
 
-- The source code is at https://github.com/marquil-san/Device_ID-Spoofer/blob/main/real_spoofer.py.
+- The source code is at https://github.com/marquil-san/Device_ID-Spoofer/blob/main/spoofer.py .
 - If it get's flagged as Malware, add it to exclusions.
 
 Stay safe.

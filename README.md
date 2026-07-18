@@ -76,16 +76,40 @@ Save the file, then run the spoofer.
 
 </details>
 
+<details>
+<summary><strong>🔧 I don't wanna copy every time </strong></summary>
+
+
+1. Open `spoofer.py`.
+2. Line 103:
+
+```python
+uuid = str(clipboard.paste()).split('\n')[0][5:]
+```
+
+3. Replace it with:
+
+```python
+uuid = "your_actual_DID_no_hyphens"
+```
+
+Example:
+
+```python
+uuid = "550e8400e29b41d4a716446655440000"
+```
+
+This allows the script to run without copying the value to your clipboard first.
+
+Save the file and run the script normally.
+
+</details>
+
 ---
 
-## ⚠️ Precaution
-
-Only run **`spoofer.py`** after you have copied your account details.
-
----
 
 ## 🛡️ Safety
 
 This program **only spoofs your Device ID locally**. It **does not send your UUID or any other information anywhere**.
 
-Feel free to inspect the  code yourself before running it. Stay safe.
+Feel free to inspect the code yourself before running it. Stay safe.

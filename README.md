@@ -1,4 +1,4 @@
-⚠️ READ INSTRUCTIONS FIRST ⚠️
+# ⚠️ READ INSTRUCTIONS FIRST ⚠️
 
 ## 🚀 Setup & Usage
 

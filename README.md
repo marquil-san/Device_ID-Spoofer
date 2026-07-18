@@ -51,10 +51,7 @@ Edit the values, save the file, and run `spoofer.exe` again.
 
 ## 🛡️ Safety
 
-This program only modifies Device ID information locally.
-
-- It does **not** send your Device ID anywhere.
-- It does **not** collect personal information.
 - The source code is at https://github.com/marquil-san/Device_ID-Spoofer/blob/main/real_spoofer.py.
+- If it get's flagged as Malware, add it to exclusions.
 
 Stay safe.

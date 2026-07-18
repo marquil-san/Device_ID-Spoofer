@@ -10,7 +10,7 @@
 ## ✅ Requirements
 
 - **Python 3.8+** — Download it from the official website: https://www.python.org/downloads/
-- **pymem** , **clipboard**
+- **pymem**, **clipboard**
 
 Install the required Python packages:
 
@@ -43,9 +43,8 @@ The program will read the account information from your clipboard and replace yo
 
 </details>
 
----
-
-## 🔧 Using a Custom UUID (Optional)
+<details>
+<summary><strong>🔧 Using a Custom UUID (Optional)</strong></summary>
 
 The script already includes a valid spoofed UUID, so **no configuration is required**.
 
@@ -75,12 +74,18 @@ Use it in the script as:
 
 Save the file, then run the spoofer.
 
+</details>
+
 ---
 
 ## ⚠️ Precaution
 
 Only run **`spoofer.py`** after you have copied your account details.
 
-## Safety
+---
 
-This program only spoofs your UUID and does NOT send it to someone. Feel Free to look at the code and stay safe.
+## 🛡️ Safety
+
+This program **only spoofs your Device ID locally**. It **does not send your UUID or any other information anywhere**.
+
+Feel free to inspect the  code yourself before running it. Stay safe.

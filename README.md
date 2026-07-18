@@ -1,65 +1,86 @@
-# Minecraft Device ID Spoofer 🐻✨
+# Minecraft Device ID Spoofer
 
-> **What this does:** A tiny Python helper that *temporarily spoofs your Minecraft device ID* for testing and development. Use responsibly — only on accounts/servers you own or have permission to test. Misuse (impersonation, ban evasion, etc.) may break rules and get accounts suspended.
+## ⚠️ Important Notes
 
----
-
-## ⚠️ Important notes
-
-* **If you get perma banned for bypassing, don't cry.**
-* **Intended Use** `Ban Evasion`
+- **If you get permanently banned for bypassing, don't cry.**
+- **Intended Use:** `Ban Evasion`
 
 ---
 
 ## ✅ Requirements
 
-* **Python 3.8+** — download from the official site: [https://www.python.org/downloads/](https://www.python.org/downloads/)
-* **pymem** — a Python package used to read/write process memory. Install with `pip` (instructions below).
+- **Python 3.8+** — Download it from the official website: https://www.python.org/downloads/
+- **pymem** , **clipboard**
 
----
-
-## 🚀 Quick setup
-
-1. Install Python (if you don't have it):
-
-   * Windows: download the installer from the Python website and make sure to check **"Add Python to PATH"** during install.
-   * macOS / Linux: use your package manager or the official installer.
-
-2. Open a terminal / Command Prompt and install `pymem`:
+Install the required Python packages:
 
 ```bash
-pip install pymem
+pip install pymem clipboard
 ```
-
-3. Place the spoofer script in a folder, and run it with:
-
-```bash
-python spoofer.py
-```
-
-(Replace `spoofer.py` with the actual filename if different.)
 
 ---
 
-## ✍️ Custom UUID 
+## 🚀 Setup & Usage
 
-If you want to set a **specific** device UUID instead of a randomly generated one, edit the script and change the line that generates a random UUID.
+<details>
+<summary><strong>Step 1: Copy your Minecraft account information</strong></summary>
 
-Find this line (by default it’s at **line 81**) and replace it:
+1. Launch **Minecraft**.
+2. Navigate to **Settings → Account**.
+3. Scroll all the way to the bottom of the page.
+4. Click **Copy Text** (located to the left of your account details).
 
-```py
-# default (random):
-spoofed_uuid = str(uuid.uuid4())
-```
+This copies your current account information to your clipboard, which the spoofer will read automatically.
 
-with a fixed UUID like this:
+</details>
 
-```py
-# fixed (example):
-spoofed_uuid = '123e4567-e89b-67d3-a456-426667174670'
-```
+<details>
+<summary><strong>Step 2: Run the spoofer</strong></summary>
 
-Make sure the UUID you provide is a valid UUID string (36 characters including hyphens).
+Simply **double-click `spoofer.py`** (or run it from a terminal with `python spoofer.py`).
+
+The program will read the account information from your clipboard and replace your original Device ID with the configured spoofed UUID.
+
+</details>
 
 ---
 
+## 🔧 Using a Custom UUID (Optional)
+
+The script already includes a valid spoofed UUID, so **no configuration is required**.
+
+If you'd like to spoof a different UUID:
+
+1. Open **`spoofer.py`**.
+2. Go to **line 67**.
+3. Change:
+
+```python
+spoofed_uuid = "550e8400e29b41d4a716446655440000"
+```
+
+to any **32-character UUID without hyphens**.
+
+For example:
+
+UUID:
+```
+550e8400-e29b-41d4-a716-446655440000
+```
+
+Use it in the script as:
+```
+550e8400e29b41d4a716446655440000
+```
+
+Save the file, then run the spoofer.
+
+---
+
+## ⚠️ Precaution
+
+Only run **`spoofer.py`** after you have copied your account details.
+
+## Safety
+
+This program only spoofs your UUID and does NOT send it to someone. Feel Free to look at the code and stay safe.

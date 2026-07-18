@@ -1,11 +1,4 @@
-# Minecraft Device ID Spoofer
-
-## ⚠️ Important Notes
-
-- **If you get permanently banned for bypassing, don't cry.**
-- **Intended Use:** `Ban Evasion`
-
----
+⚠️ READ INSTRUCTIONS FIRST ⚠️
 
 ## 🚀 Setup & Usage
 
@@ -46,6 +39,13 @@ If you want to manually change the Device ID values:
 - **Line 2:** The Device ID the program will spoof with.
 
 Edit the values, save the file, and run `spoofer.exe` again.
+
+---
+
+## ⚠️ Important Notes
+
+- **If you get permanently banned for bypassing, don't cry.**
+- **Intended Use:** `Ban Evasion`
 
 ---
 
